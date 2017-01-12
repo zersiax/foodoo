@@ -1,0 +1,20 @@
+  default: &default
+    adapter: postgresql
+    encoding: unicode
+    pool: 5
+    username: postgres
+    password: password
+    host: localhost
+
+
+  development:
+    <<: *default
+    database: foodoo_development
+
+  test:
+    <<: *default
+    database: foodoo_test
+
+  production:
+    <<: *default
+    database: foodoo_production
