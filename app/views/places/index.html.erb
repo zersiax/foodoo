@@ -1,1 +1,10 @@
-<h1>Whoopty whoop, web app</h1>
+<% @places.each do |place| %>
+  <div>
+    <h1><%= place.name %></h1>
+	<br />
+    <span><%= place.address %></span>
+	<br />
+    <p><%= place.description %></p>
+	<br />
+  </div>
+<% end %>
