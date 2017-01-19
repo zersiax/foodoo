@@ -11,6 +11,8 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+# use kaminari for pagination
+gem 'kaminari' 
 # 12factor for speed increase and better error messages
 gem 'rails_12factor', group: :production
 # Use CoffeeScript for .js.coffee assets and views
