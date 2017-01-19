@@ -13,6 +13,9 @@ gem 'sprockets', '2.11.0'
 gem 'uglifier', '>= 1.3.0'
 # use kaminari for pagination
 gem 'kaminari' 
+# simple_form for ..well ...simple forms
+gem 'simple_form'
+
 # 12factor for speed increase and better error messages
 gem 'rails_12factor', group: :production
 # Use CoffeeScript for .js.coffee assets and views
