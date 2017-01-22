@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'simple_form'
 # use devise for authentication
 gem 'devise'
+# use fontawesome for fancy iconography
+gem "font-awesome-rails"
 # use bootstrap for styling
 gem 'bootstrap', '~> 4.0.0.alpha6'
 # use kaminari for pagination

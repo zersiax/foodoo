@@ -11,13 +11,13 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Foodoo</a>
+  <%= link_to 'Foodoo', root_path, class: 'navbar-brand' %>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-md-0">
       <li class='nav-item'>
-  <%= link_to new_place_path do %>
-    <i class="glyphicon glyphicon-plus-sign"></i>
+  <%= link_to new_place_path, class: 'nav-link' do %>
+          <i class="fa fa-plus-circle"></i>
     New Place
   <% end %>
 </li>
@@ -25,13 +25,12 @@
   </div>
 </nav>
        <% if notice.present? %>
-	   <p class="alert alert-info"><%= notice %></p>
-	   <% end %>
-	   < if alert.present? %>
-       <p class="alert alert-danger"><%= alert %></p>
-	   <% end %>
-	   
-	   
+  <p class="alert alert-info"><%= notice %></p>
+<% end %>
+<% if alert.present? %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+
 <%= yield %>
 
 </body>
