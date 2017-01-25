@@ -13,6 +13,9 @@ def create
   current_user.places.create(place_params) 
   redirect_to root_path
   end
+  def show
+  @place = Place.find(params[:id])
+  end
 end
 
 private
