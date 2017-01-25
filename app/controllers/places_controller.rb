@@ -16,6 +16,9 @@ def create
   def show
   @place = Place.find(params[:id])
   end
+  def edit
+  @place = Place.find(parms[:id])
+  end
 end
 
 private
