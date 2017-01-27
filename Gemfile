@@ -37,6 +37,11 @@ gem 'simple_form'
 gem 'devise'
 # use fontawesome for fancy iconography
 gem "font-awesome-rails"
+# use geocoder for ... well ...geocoding
+gem "geocoder"
+# fiiiigaro figaro figaro fiiiigaro
+gem "figaro"
+
 # use bootstrap for styling
 gem 'bootstrap', '~> 4.0.0.alpha6'
 # use kaminari for pagination
