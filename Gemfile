@@ -16,6 +16,8 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+# use fog for ...I haven't the foggiest
+gem 'fog' 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -42,6 +44,8 @@ gem "geocoder"
 # fiiiigaro figaro figaro fiiiigaro
 gem "figaro"
 
+# carrier wave for file uploads
+gem 'carrierwave', '~> 1.0'
 # use bootstrap for styling
 gem 'bootstrap', '~> 4.0.0.alpha6'
 # use kaminari for pagination
