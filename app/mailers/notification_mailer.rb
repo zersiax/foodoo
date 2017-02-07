@@ -1,7 +1,6 @@
 class NotificationMailer < ApplicationMailer
-  default from: notifications@foodoo.com
-  
-  def comment_added(comment)
-    
+  default from: "no-reply@nomsterapp.com"
+
+  def comment_added
   end
 end
